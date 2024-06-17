@@ -6,7 +6,7 @@ namespace DCSLibraryRepository
 {
     public partial class RegisterForm : MaterialForm
     {
-        
+
         public RegisterForm()
         {
 
@@ -19,5 +19,7 @@ namespace DCSLibraryRepository
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             materialSkinManager.ColorScheme = new ColorScheme(Primary.Green800, Primary.Green900, Primary.Green500, Accent.Green700, TextShade.WHITE);
         }
+
+        
     }
 }

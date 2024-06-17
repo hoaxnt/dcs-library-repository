@@ -37,6 +37,7 @@
             ShowPasswordButton = new MaterialSkin.Controls.MaterialRadioButton();
             Title = new MaterialSkin.Controls.MaterialLabel();
             pictureBox1 = new PictureBox();
+            InvalidLabel = new MaterialSkin.Controls.MaterialLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -200,12 +201,29 @@
             pictureBox1.TabIndex = 13;
             pictureBox1.TabStop = false;
             // 
+            // InvalidLabel
+            // 
+            InvalidLabel.AutoSize = true;
+            InvalidLabel.Depth = 0;
+            InvalidLabel.Font = new Font("Roboto", 12F, FontStyle.Regular, GraphicsUnit.Pixel);
+            InvalidLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.Caption;
+            InvalidLabel.HighEmphasis = true;
+            InvalidLabel.Location = new Point(42, 314);
+            InvalidLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            InvalidLabel.Name = "InvalidLabel";
+            InvalidLabel.Size = new Size(172, 14);
+            InvalidLabel.TabIndex = 14;
+            InvalidLabel.Text = "* Invalid username or password";
+            InvalidLabel.UseAccent = true;
+            InvalidLabel.Visible = false;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(745, 541);
+            Controls.Add(InvalidLabel);
             Controls.Add(CreateAccountBtn);
             Controls.Add(pictureBox1);
             Controls.Add(materialLabel1);
@@ -216,6 +234,7 @@
             Controls.Add(UsernameField);
             HelpButton = true;
             Name = "LoginForm";
+            Sizable = false;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -232,5 +251,6 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialLabel CreateAccountBtn;
         private PictureBox pictureBox1;
+        private MaterialSkin.Controls.MaterialLabel InvalidLabel;
     }
 }

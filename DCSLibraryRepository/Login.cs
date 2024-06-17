@@ -8,12 +8,13 @@ namespace DCSLibraryRepository
     {
         private string path = @"C:\ProgramData\DCSlogs";
         private string logfile = "accs.txt";
-
+        
 
         public LoginForm()
         {
-            InitializeComponent();
+            this.MaximizeBox = false;
 
+            InitializeComponent();
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
@@ -48,9 +49,12 @@ namespace DCSLibraryRepository
                 if (credentials[0] == username && credentials[1] == password)
                 {
                     //Scan info here
+                    InvalidLabel.Visible = false;
+                    //////
                     return true;
                 }
             }
+            InvalidLabel.Visible = true;
             return false;
         }
 

@@ -5,13 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|e:\\visualbasicprojects\\libraryrepositorydcs\\dcslibraryrepository\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-<<<<<<< Updated upstream
-=======
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|e:\\visualbasicprojects\\libraryrepositorydcs\\dcslibraryrepository\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|E:\\VisualBasicProjects\\LibraryRepositoryDCS\\dcslibraryrepository\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
->>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -21,11 +18,6 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< Updated upstream
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-=======
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -37,11 +29,9 @@
               "ToolTip": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\DCSLibraryRepository\\Register.cs [Design]",
               "RelativeToolTip": "DCSLibraryRepository\\Register.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:41:50.714Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-17T18:41:50.714Z"
             },
             {
->>>>>>> Stashed changes
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Login.cs [Design]",

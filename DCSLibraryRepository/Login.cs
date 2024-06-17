@@ -9,7 +9,7 @@ namespace DCSLibraryRepository
         private string path = @"C:\ProgramData\DCSlogs";
         private string logfile = "accs.txt";
 
-        
+
         public LoginForm()
         {
             InitializeComponent();
@@ -26,7 +26,7 @@ namespace DCSLibraryRepository
         }
 
         private void LoginPressed(object sender, EventArgs e)
-        { 
+        {
             ValidateCredentials(UsernameField.Text, PasswordField.Text);
         }
 
@@ -47,12 +47,18 @@ namespace DCSLibraryRepository
                 string[] credentials = account.Split(':');
                 if (credentials[0] == username && credentials[1] == password)
                 {
-                    Title.Text = "DCS";
-                    return true; // Credentials are valid
+                    //Scan info here
+                    return true;
                 }
             }
-            return false; // No matching credentials found
+            return false;
         }
 
+        private void CreateAccountBtn_Click(object sender, EventArgs e)
+        {
+            RegisterForm register = new RegisterForm();
+            register.Show();
+            
+        }
     }
 }

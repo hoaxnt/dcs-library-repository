@@ -2,16 +2,19 @@ using MaterialSkin;
 using MaterialSkin.Controls;
 using System.IO;
 
+
 namespace DCSLibraryRepository
 {
     public partial class LoginForm : MaterialForm
     {
         private string path = @"C:\ProgramData\DCSlogs";
-        private string logfile = "accs.txt";
-        
+        private string logfile = "data";
+        private string logged = "current_user";
 
         public LoginForm()
         {
+
+
             this.MaximizeBox = false;
 
             InitializeComponent();
@@ -21,14 +24,28 @@ namespace DCSLibraryRepository
             materialSkinManager.ColorScheme = new ColorScheme(Primary.Green800, Primary.Green900, Primary.Green500, Accent.Green700, TextShade.WHITE);
         }
 
-        private void ShowPasswordPressed(object sender, EventArgs e)
+        private void ShowPasswordCheckbox_CheckedChanged(object sender, EventArgs e)
         {
-            PasswordField.UseSystemPasswordChar = false;
+            if (ShowPasswordCheckbox.Checked == true)
+            {
+                PasswordField.UseSystemPasswordChar = false;
+                PasswordField.PasswordChar = default;
+            }
+            else
+            {
+                PasswordField.UseSystemPasswordChar = true;
+            }
+           
         }
+
 
         private void LoginPressed(object sender, EventArgs e)
         {
             ValidateCredentials(UsernameField.Text, PasswordField.Text);
+            UsernameField.Clear();
+            PasswordField.Clear();
+            ShowPasswordCheckbox.Checked = false;
+            
         }
 
         private bool ValidateCredentials(string username, string password)
@@ -41,16 +58,25 @@ namespace DCSLibraryRepository
             {
                 File.Create(logfile);
             }
+            if (!File.Exists(logged))
+            {
+                File.Create(logged);
+            }
 
             string[] accounts = File.ReadAllLines(Path.Combine(path, logfile));
             foreach (string account in accounts)
             {
-                string[] credentials = account.Split(':');
-                if (credentials[0] == username && credentials[1] == password)
+                string[] credentials = account.Split(',');
+                if (credentials[5] == username && credentials[6] == password)
                 {
-                    //Scan info here
+                    //The current user
                     InvalidLabel.Visible = false;
-                    //////
+
+                    File.WriteAllText(Path.Combine(path, logged), credentials[5]);
+
+                    MainForm main = new MainForm();
+                    main.Show();
+
                     return true;
                 }
             }
@@ -62,7 +88,9 @@ namespace DCSLibraryRepository
         {
             RegisterForm register = new RegisterForm();
             register.Show();
-            
+
         }
+
+        
     }
 }

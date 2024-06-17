@@ -41,6 +41,7 @@
             LogoPicture = new PictureBox();
             materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             YearCourseCombo = new MaterialSkin.Controls.MaterialComboBox();
+            RegistrationSuccessLabel = new MaterialSkin.Controls.MaterialLabel();
             ((System.ComponentModel.ISupportInitialize)LogoPicture).BeginInit();
             SuspendLayout();
             // 
@@ -244,6 +245,7 @@
             RegisterBtn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             RegisterBtn.UseAccentColor = false;
             RegisterBtn.UseVisualStyleBackColor = true;
+            RegisterBtn.Click += RegisterBtn_Click;
             // 
             // LogoPicture
             // 
@@ -287,7 +289,7 @@
             YearCourseCombo.Hint = "Year/Course";
             YearCourseCombo.IntegralHeight = false;
             YearCourseCombo.ItemHeight = 43;
-            YearCourseCombo.Items.AddRange(new object[] { "BS Computer Science", "BS Information Technology" });
+            YearCourseCombo.Items.AddRange(new object[] { "none", "BS Computer Science", "BS Information Technology" });
             YearCourseCombo.Location = new Point(481, 259);
             YearCourseCombo.MaxDropDownItems = 4;
             YearCourseCombo.MouseState = MaterialSkin.MouseState.OUT;
@@ -296,11 +298,28 @@
             YearCourseCombo.StartIndex = 0;
             YearCourseCombo.TabIndex = 10;
             // 
+            // RegistrationSuccessLabel
+            // 
+            RegistrationSuccessLabel.AutoSize = true;
+            RegistrationSuccessLabel.Depth = 0;
+            RegistrationSuccessLabel.Font = new Font("Roboto", 12F, FontStyle.Regular, GraphicsUnit.Pixel);
+            RegistrationSuccessLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.Caption;
+            RegistrationSuccessLabel.HighEmphasis = true;
+            RegistrationSuccessLabel.Location = new Point(173, 409);
+            RegistrationSuccessLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            RegistrationSuccessLabel.Name = "RegistrationSuccessLabel";
+            RegistrationSuccessLabel.Size = new Size(160, 14);
+            RegistrationSuccessLabel.TabIndex = 11;
+            RegistrationSuccessLabel.Text = "Account registration success!";
+            RegistrationSuccessLabel.UseAccent = true;
+            RegistrationSuccessLabel.Visible = false;
+            // 
             // RegisterForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(775, 544);
+            Controls.Add(RegistrationSuccessLabel);
             Controls.Add(YearCourseCombo);
             Controls.Add(materialLabel1);
             Controls.Add(LogoPicture);
@@ -332,5 +351,6 @@
         private PictureBox LogoPicture;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialComboBox YearCourseCombo;
+        private MaterialSkin.Controls.MaterialLabel RegistrationSuccessLabel;
     }
 }

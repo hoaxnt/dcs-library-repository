@@ -58,3 +58,4 @@ E:\VisualBasicProjects\LibraryRepositoryDCS\DCSLibraryRepository\bin\Debug\net8.
 E:\VisualBasicProjects\LibraryRepositoryDCS\DCSLibraryRepository\bin\Debug\net8.0-windows\sv\Xceed.Wpf.AvalonDock.NET5.resources.dll
 E:\VisualBasicProjects\LibraryRepositoryDCS\DCSLibraryRepository\bin\Debug\net8.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.NET5.resources.dll
 E:\VisualBasicProjects\LibraryRepositoryDCS\DCSLibraryRepository\obj\Debug\net8.0-windows\DCSLibraryRepository.RegisterForm.resources
+E:\VisualBasicProjects\LibraryRepositoryDCS\DCSLibraryRepository\obj\Debug\net8.0-windows\DCSLibraryRepository.MainForm.resources

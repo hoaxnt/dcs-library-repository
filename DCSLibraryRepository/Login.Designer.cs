@@ -34,10 +34,10 @@
             LoginBtn = new MaterialSkin.Controls.MaterialButton();
             CreateAccountBtn = new MaterialSkin.Controls.MaterialLabel();
             materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            ShowPasswordButton = new MaterialSkin.Controls.MaterialRadioButton();
             Title = new MaterialSkin.Controls.MaterialLabel();
             pictureBox1 = new PictureBox();
             InvalidLabel = new MaterialSkin.Controls.MaterialLabel();
+            ShowPasswordCheckbox = new MaterialSkin.Controls.MaterialCheckbox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -87,7 +87,7 @@
             PasswordField.MaxLength = 32767;
             PasswordField.MouseState = MaterialSkin.MouseState.OUT;
             PasswordField.Name = "PasswordField";
-            PasswordField.PasswordChar = '\0';
+            PasswordField.PasswordChar = '●';
             PasswordField.PrefixSuffixText = null;
             PasswordField.ReadOnly = false;
             PasswordField.RightToLeft = RightToLeft.No;
@@ -100,7 +100,7 @@
             PasswordField.TabStop = false;
             PasswordField.TextAlign = HorizontalAlignment.Left;
             PasswordField.TrailingIcon = null;
-            PasswordField.UseSystemPasswordChar = false;
+            PasswordField.UseSystemPasswordChar = true;
             // 
             // LoginBtn
             // 
@@ -156,24 +156,6 @@
             materialLabel1.TabIndex = 12;
             materialLabel1.Text = "or";
             // 
-            // ShowPasswordButton
-            // 
-            ShowPasswordButton.Anchor = AnchorStyles.Top;
-            ShowPasswordButton.AutoSize = true;
-            ShowPasswordButton.Depth = 0;
-            ShowPasswordButton.Location = new Point(42, 342);
-            ShowPasswordButton.Margin = new Padding(0);
-            ShowPasswordButton.MouseLocation = new Point(-1, -1);
-            ShowPasswordButton.MouseState = MaterialSkin.MouseState.HOVER;
-            ShowPasswordButton.Name = "ShowPasswordButton";
-            ShowPasswordButton.Ripple = true;
-            ShowPasswordButton.Size = new Size(149, 37);
-            ShowPasswordButton.TabIndex = 11;
-            ShowPasswordButton.TabStop = true;
-            ShowPasswordButton.Text = "Show Password";
-            ShowPasswordButton.UseVisualStyleBackColor = true;
-            ShowPasswordButton.Click += ShowPasswordPressed;
-            // 
             // Title
             // 
             Title.Anchor = AnchorStyles.Top;
@@ -217,18 +199,35 @@
             InvalidLabel.UseAccent = true;
             InvalidLabel.Visible = false;
             // 
+            // ShowPasswordCheckbox
+            // 
+            ShowPasswordCheckbox.AutoSize = true;
+            ShowPasswordCheckbox.Depth = 0;
+            ShowPasswordCheckbox.Location = new Point(42, 341);
+            ShowPasswordCheckbox.Margin = new Padding(0);
+            ShowPasswordCheckbox.MouseLocation = new Point(-1, -1);
+            ShowPasswordCheckbox.MouseState = MaterialSkin.MouseState.HOVER;
+            ShowPasswordCheckbox.Name = "ShowPasswordCheckbox";
+            ShowPasswordCheckbox.ReadOnly = false;
+            ShowPasswordCheckbox.Ripple = true;
+            ShowPasswordCheckbox.Size = new Size(148, 37);
+            ShowPasswordCheckbox.TabIndex = 15;
+            ShowPasswordCheckbox.Text = "Show password";
+            ShowPasswordCheckbox.UseVisualStyleBackColor = true;
+            ShowPasswordCheckbox.CheckedChanged += ShowPasswordCheckbox_CheckedChanged;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(745, 541);
+            Controls.Add(ShowPasswordCheckbox);
             Controls.Add(InvalidLabel);
             Controls.Add(CreateAccountBtn);
             Controls.Add(pictureBox1);
             Controls.Add(materialLabel1);
             Controls.Add(Title);
-            Controls.Add(ShowPasswordButton);
             Controls.Add(LoginBtn);
             Controls.Add(PasswordField);
             Controls.Add(UsernameField);
@@ -247,10 +246,10 @@
         private MaterialSkin.Controls.MaterialTextBox2 PasswordField;
         private MaterialSkin.Controls.MaterialButton LoginBtn;
         private MaterialSkin.Controls.MaterialLabel Title;
-        private MaterialSkin.Controls.MaterialRadioButton ShowPasswordButton;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialLabel CreateAccountBtn;
         private PictureBox pictureBox1;
         private MaterialSkin.Controls.MaterialLabel InvalidLabel;
+        private MaterialSkin.Controls.MaterialCheckbox ShowPasswordCheckbox;
     }
 }

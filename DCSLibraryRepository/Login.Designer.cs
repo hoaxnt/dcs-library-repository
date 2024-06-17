@@ -37,6 +37,7 @@
             ShowPasswordButton = new MaterialSkin.Controls.MaterialRadioButton();
             Title = new MaterialSkin.Controls.MaterialLabel();
             pictureBox1 = new PictureBox();
+            materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -200,12 +201,25 @@
             pictureBox1.TabIndex = 13;
             pictureBox1.TabStop = false;
             // 
+            // materialLabel2
+            // 
+            materialLabel2.AutoSize = true;
+            materialLabel2.Depth = 0;
+            materialLabel2.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialLabel2.Location = new Point(412, 485);
+            materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            materialLabel2.Name = "materialLabel2";
+            materialLabel2.Size = new Size(107, 19);
+            materialLabel2.TabIndex = 14;
+            materialLabel2.Text = "materialLabel2";
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(745, 541);
+            Controls.Add(materialLabel2);
             Controls.Add(CreateAccountBtn);
             Controls.Add(pictureBox1);
             Controls.Add(materialLabel1);
@@ -232,5 +246,6 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialLabel CreateAccountBtn;
         private PictureBox pictureBox1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel2;
     }
 }

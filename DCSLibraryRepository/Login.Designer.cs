@@ -28,15 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             UsernameField = new MaterialSkin.Controls.MaterialTextBox2();
             PasswordField = new MaterialSkin.Controls.MaterialTextBox2();
             LoginBtn = new MaterialSkin.Controls.MaterialButton();
-            panel1 = new Panel();
-            materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            CreateAccountBtn = new MaterialSkin.Controls.MaterialLabel();
             materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             ShowPasswordButton = new MaterialSkin.Controls.MaterialRadioButton();
             Title = new MaterialSkin.Controls.MaterialLabel();
-            panel1.SuspendLayout();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // UsernameField
@@ -50,7 +51,7 @@
             UsernameField.HideSelection = true;
             UsernameField.Hint = "Username";
             UsernameField.LeadingIcon = null;
-            UsernameField.Location = new Point(127, 14);
+            UsernameField.Location = new Point(42, 189);
             UsernameField.MaxLength = 32767;
             UsernameField.MouseState = MaterialSkin.MouseState.OUT;
             UsernameField.Name = "UsernameField";
@@ -80,7 +81,7 @@
             PasswordField.HideSelection = true;
             PasswordField.Hint = "Password";
             PasswordField.LeadingIcon = null;
-            PasswordField.Location = new Point(127, 91);
+            PasswordField.Location = new Point(42, 266);
             PasswordField.Margin = new Padding(0);
             PasswordField.MaxLength = 32767;
             PasswordField.MouseState = MaterialSkin.MouseState.OUT;
@@ -110,7 +111,7 @@
             LoginBtn.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             LoginBtn.HighEmphasis = true;
             LoginBtn.Icon = null;
-            LoginBtn.Location = new Point(127, 211);
+            LoginBtn.Location = new Point(42, 397);
             LoginBtn.Margin = new Padding(4, 6, 4, 6);
             LoginBtn.MouseState = MaterialSkin.MouseState.HOVER;
             LoginBtn.Name = "LoginBtn";
@@ -123,36 +124,22 @@
             LoginBtn.UseVisualStyleBackColor = true;
             LoginBtn.Click += LoginPressed;
             // 
-            // panel1
+            // CreateAccountBtn
             // 
-            panel1.Anchor = AnchorStyles.Top;
-            panel1.BackColor = Color.Transparent;
-            panel1.Controls.Add(materialLabel2);
-            panel1.Controls.Add(materialLabel1);
-            panel1.Controls.Add(ShowPasswordButton);
-            panel1.Controls.Add(PasswordField);
-            panel1.Controls.Add(UsernameField);
-            panel1.Controls.Add(LoginBtn);
-            panel1.Location = new Point(-30, 133);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(561, 333);
-            panel1.TabIndex = 11;
-            // 
-            // materialLabel2
-            // 
-            materialLabel2.Anchor = AnchorStyles.Top;
-            materialLabel2.AutoSize = true;
-            materialLabel2.Depth = 0;
-            materialLabel2.Font = new Font("Roboto", 14F, FontStyle.Bold, GraphicsUnit.Pixel);
-            materialLabel2.FontType = MaterialSkin.MaterialSkinManager.fontType.Button;
-            materialLabel2.HighEmphasis = true;
-            materialLabel2.Location = new Point(222, 299);
-            materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
-            materialLabel2.Name = "materialLabel2";
-            materialLabel2.Size = new Size(130, 17);
-            materialLabel2.TabIndex = 13;
-            materialLabel2.Text = "Create New Account";
-            materialLabel2.UseAccent = true;
+            CreateAccountBtn.Anchor = AnchorStyles.Top;
+            CreateAccountBtn.AutoSize = true;
+            CreateAccountBtn.Depth = 0;
+            CreateAccountBtn.Font = new Font("Roboto", 14F, FontStyle.Bold, GraphicsUnit.Pixel);
+            CreateAccountBtn.FontType = MaterialSkin.MaterialSkinManager.fontType.Button;
+            CreateAccountBtn.HighEmphasis = true;
+            CreateAccountBtn.Location = new Point(137, 485);
+            CreateAccountBtn.MouseState = MaterialSkin.MouseState.HOVER;
+            CreateAccountBtn.Name = "CreateAccountBtn";
+            CreateAccountBtn.Size = new Size(130, 17);
+            CreateAccountBtn.TabIndex = 13;
+            CreateAccountBtn.Text = "Create New Account";
+            CreateAccountBtn.UseAccent = true;
+            CreateAccountBtn.Click += CreateAccountBtn_Click;
             // 
             // materialLabel1
             // 
@@ -161,7 +148,7 @@
             materialLabel1.Depth = 0;
             materialLabel1.Font = new Font("Roboto", 12F, FontStyle.Regular, GraphicsUnit.Pixel);
             materialLabel1.FontType = MaterialSkin.MaterialSkinManager.fontType.Body2;
-            materialLabel1.Location = new Point(279, 265);
+            materialLabel1.Location = new Point(194, 451);
             materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             materialLabel1.Name = "materialLabel1";
             materialLabel1.Size = new Size(14, 17);
@@ -173,7 +160,7 @@
             ShowPasswordButton.Anchor = AnchorStyles.Top;
             ShowPasswordButton.AutoSize = true;
             ShowPasswordButton.Depth = 0;
-            ShowPasswordButton.Location = new Point(127, 156);
+            ShowPasswordButton.Location = new Point(42, 342);
             ShowPasswordButton.Margin = new Padding(0);
             ShowPasswordButton.MouseLocation = new Point(-1, -1);
             ShowPasswordButton.MouseState = MaterialSkin.MouseState.HOVER;
@@ -194,27 +181,44 @@
             Title.Font = new Font("Roboto", 34F, FontStyle.Bold, GraphicsUnit.Pixel);
             Title.FontType = MaterialSkin.MaterialSkinManager.fontType.H4;
             Title.HighEmphasis = true;
-            Title.Location = new Point(82, 89);
+            Title.Location = new Point(27, 112);
             Title.MouseState = MaterialSkin.MouseState.HOVER;
             Title.Name = "Title";
             Title.Size = new Size(346, 41);
             Title.TabIndex = 12;
             Title.Text = "DCS Library Repository";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Anchor = AnchorStyles.Top;
+            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox1.Location = new Point(412, 133);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(300, 300);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 13;
+            pictureBox1.TabStop = false;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(515, 530);
+            ClientSize = new Size(745, 541);
+            Controls.Add(CreateAccountBtn);
+            Controls.Add(pictureBox1);
+            Controls.Add(materialLabel1);
             Controls.Add(Title);
-            Controls.Add(panel1);
+            Controls.Add(ShowPasswordButton);
+            Controls.Add(LoginBtn);
+            Controls.Add(PasswordField);
+            Controls.Add(UsernameField);
             HelpButton = true;
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -223,11 +227,10 @@
         private MaterialSkin.Controls.MaterialTextBox2 UsernameField;
         private MaterialSkin.Controls.MaterialTextBox2 PasswordField;
         private MaterialSkin.Controls.MaterialButton LoginBtn;
-        private Panel panel1;
         private MaterialSkin.Controls.MaterialLabel Title;
         private MaterialSkin.Controls.MaterialRadioButton ShowPasswordButton;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel2;
-        
+        private MaterialSkin.Controls.MaterialLabel CreateAccountBtn;
+        private PictureBox pictureBox1;
     }
 }

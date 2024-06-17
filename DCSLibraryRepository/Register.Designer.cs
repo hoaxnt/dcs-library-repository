@@ -1,6 +1,6 @@
 ﻿namespace DCSLibraryRepository
 {
-    partial class Register
+    partial class RegisterForm
     {
         /// <summary>
         /// Required designer variable.
@@ -13,6 +13,8 @@
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
+          
+
             if (disposing && (components != null))
             {
                 components.Dispose();
@@ -28,10 +30,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Register";
+            SuspendLayout();
+            // 
+            // RegisterForm
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Name = "RegisterForm";
+            Text = "Register";
+            ResumeLayout(false);
         }
 
         #endregion

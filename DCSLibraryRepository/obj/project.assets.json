@@ -46,11 +46,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VisualBasicProjects\\DCSLibraryRepository\\DCSLibraryRepository\\DCSLibraryRepository\\DCSLibraryRepository.csproj",
+      "projectUniqueName": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\DCSLibraryRepository\\DCSLibraryRepository.csproj",
       "projectName": "DCSLibraryRepository",
-      "projectPath": "E:\\VisualBasicProjects\\DCSLibraryRepository\\DCSLibraryRepository\\DCSLibraryRepository\\DCSLibraryRepository.csproj",
+      "projectPath": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\DCSLibraryRepository\\DCSLibraryRepository.csproj",
       "packagesPath": "C:\\Users\\CaxperHat\\.nuget\\packages\\",
-      "outputPath": "E:\\VisualBasicProjects\\DCSLibraryRepository\\DCSLibraryRepository\\DCSLibraryRepository\\obj\\",
+      "outputPath": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\DCSLibraryRepository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CaxperHat\\AppData\\Roaming\\NuGet\\NuGet.Config",

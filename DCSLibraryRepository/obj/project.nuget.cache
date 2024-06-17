@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S4oIt58KVto=",
+  "dgSpecHash": "ypiaeC4qa64=",
   "success": true,
-  "projectFilePath": "E:\\VisualBasicProjects\\DCSLibraryRepository\\DCSLibraryRepository\\DCSLibraryRepository\\DCSLibraryRepository.csproj",
+  "projectFilePath": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\DCSLibraryRepository\\DCSLibraryRepository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CaxperHat\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512"
   ],

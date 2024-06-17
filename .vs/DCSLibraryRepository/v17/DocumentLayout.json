@@ -11,11 +11,11 @@
       "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|e:\\visualbasicprojects\\libraryrepositorydcs\\dcslibraryrepository\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|e:\\visualbasicprojects\\libraryrepositorydcs\\dcslibraryrepository\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|e:\\visualbasicprojects\\libraryrepositorydcs\\dcslibraryrepository\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|E:\\VisualBasicProjects\\LibraryRepositoryDCS\\dcslibraryrepository\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -23,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|e:\\visualbasicprojects\\libraryrepositorydcs\\dcslibraryrepository\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|e:\\visualbasicprojects\\libraryrepositorydcs\\dcslibraryrepository\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|e:\\visualbasicprojects\\libraryrepositorydcs\\dcslibraryrepository\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|e:\\visualbasicprojects\\libraryrepositorydcs\\dcslibraryrepository\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\DCSLibraryRepository\\Program.cs",
               "RelativeDocumentMoniker": "DCSLibraryRepository\\Program.cs",
@@ -50,18 +54,17 @@
               "RelativeToolTip": "DCSLibraryRepository\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T08:37:46.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T08:37:46.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Login.cs",
               "DocumentMoniker": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\DCSLibraryRepository\\Login.cs",
               "RelativeDocumentMoniker": "DCSLibraryRepository\\Login.cs",
               "ToolTip": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\DCSLibraryRepository\\Login.cs",
               "RelativeToolTip": "DCSLibraryRepository\\Login.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowD0AAAAJAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAA5wD0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T08:22:16.684Z",
               "EditorCaption": ""
@@ -93,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Register.cs",
               "DocumentMoniker": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\DCSLibraryRepository\\Register.cs",
               "RelativeDocumentMoniker": "DCSLibraryRepository\\Register.cs",

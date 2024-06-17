@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DCSLibraryRepository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44e290583d5a827b995185544dfe084b3cc94bd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9a9e419b18972b832deacf3c33e4e29fbb33ff6")]
 [assembly: System.Reflection.AssemblyProductAttribute("DCSLibraryRepository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DCSLibraryRepository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

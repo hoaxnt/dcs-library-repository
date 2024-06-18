@@ -1,2 +1,3 @@
-.vs\
-DCSLibraryRepository\bin\
+.vs
+DCSLibraryRepository\bin
+DCSLibraryRepository\obj

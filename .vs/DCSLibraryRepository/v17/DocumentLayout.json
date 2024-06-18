@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|E:\\VisualBasicProjects\\LibraryRepositoryDCS\\dcslibraryrepository\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|E:\\VisualBasicProjects\\LibraryRepositoryDCS\\dcslibraryrepository\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30A822F9-6A78-4450-AF31-3FB97EAC24BC}|Solution Items{30A822F9-6A78-4450-AF31-3FB97EAC24BC}|E:\\VisualBasicProjects\\LibraryRepositoryDCS\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{30A822F9-6A78-4450-AF31-3FB97EAC24BC}|Solution Items{30A822F9-6A78-4450-AF31-3FB97EAC24BC}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -19,14 +27,6 @@
       "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|E:\\VisualBasicProjects\\LibraryRepositoryDCS\\dcslibraryrepository\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|E:\\VisualBasicProjects\\LibraryRepositoryDCS\\dcslibraryrepository\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|e:\\visualbasicprojects\\libraryrepositorydcs\\dcslibraryrepository\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F756F41D-BAA5-4E07-83B5-4C607180C235}|DCSLibraryRepository\\DCSLibraryRepository.csproj|solutionrelative:dcslibraryrepository\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": ".gitignore",
               "DocumentMoniker": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Register.cs",
               "DocumentMoniker": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\DCSLibraryRepository\\Register.cs",
               "RelativeDocumentMoniker": "DCSLibraryRepository\\Register.cs",
@@ -85,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Login.cs",
               "DocumentMoniker": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\DCSLibraryRepository\\Login.cs",
               "RelativeDocumentMoniker": "DCSLibraryRepository\\Login.cs",
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Main.cs [Design]",
               "DocumentMoniker": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\DCSLibraryRepository\\Main.cs",
               "RelativeDocumentMoniker": "DCSLibraryRepository\\Main.cs",
@@ -110,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Register.cs [Design]",
               "DocumentMoniker": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\DCSLibraryRepository\\Register.cs",
               "RelativeDocumentMoniker": "DCSLibraryRepository\\Register.cs",
@@ -122,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "E:\\VisualBasicProjects\\LibraryRepositoryDCS\\DCSLibraryRepository\\Login.cs",
               "RelativeDocumentMoniker": "DCSLibraryRepository\\Login.cs",
